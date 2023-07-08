@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-support-1000;
+  font-family: "Poppins", sans-serif;
+}
+
+.button {
+  @apply flex items-center gap-3 px-5 py-3 bg-primary-300 w-max uppercase font-semibold tracking-wider transition-transform duration-500 hover:scale-[1.05] rounded-[2px];
+}
+
+.left-animate {
+  @apply transform -translate-x-8 animate-desanime;
+}
